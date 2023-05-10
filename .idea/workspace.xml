@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="tetris" targetName="tetris" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="044dbb0b-eaa0-47ec-ade0-e1ced774f917" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M0VKQLmN1rruKFgPN6T5BKplVF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/wadia/ikt103g23v/tetris/tetris",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wadia\ikt103g23v\tetris\tetris" />
+      <recent name="C:\Users\wadia\ikt103g23v\tetris\tetris\Tetraminos" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tetris" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tetris" TARGET_NAME="tetris" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tetris" RUN_TARGET_NAME="tetris">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="044dbb0b-eaa0-47ec-ade0-e1ced774f917" name="Changes" comment="" />
+      <created>1676892741252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676892741252</updated>
+      <workItem from="1676892747318" duration="10211000" />
+      <workItem from="1676904437569" duration="851000" />
+      <workItem from="1676932939826" duration="6512000" />
+      <workItem from="1677012505443" duration="12792000" />
+      <workItem from="1677056211588" duration="7334000" />
+      <workItem from="1677089328158" duration="2772000" />
+      <workItem from="1677099081601" duration="5973000" />
+      <workItem from="1677161027091" duration="825000" />
+      <workItem from="1677172603494" duration="5279000" />
+      <workItem from="1677178748297" duration="507000" />
+      <workItem from="1677262732372" duration="8811000" />
+      <workItem from="1677317356073" duration="6954000" />
+      <workItem from="1677346897358" duration="7232000" />
+      <workItem from="1678458554038" duration="14905000" />
+      <workItem from="1678568353867" duration="2183000" />
+      <workItem from="1678725561736" duration="4115000" />
+      <workItem from="1678731674251" duration="2957000" />
+      <workItem from="1678960014819" duration="25000" />
+      <workItem from="1679086050466" duration="1481000" />
+      <workItem from="1679339902135" duration="660000" />
+      <workItem from="1679399915918" duration="11000" />
+      <workItem from="1681727259526" duration="176000" />
+      <workItem from="1681727469783" duration="15000" />
+      <workItem from="1682002633187" duration="1950000" />
+      <workItem from="1682322731736" duration="1495000" />
+      <workItem from="1682328795873" duration="958000" />
+      <workItem from="1682460719486" duration="5606000" />
+      <workItem from="1682525544333" duration="344000" />
+      <workItem from="1682527173624" duration="63000" />
+      <workItem from="1682629069782" duration="7671000" />
+      <workItem from="1682668032741" duration="2317000" />
+      <workItem from="1683148018246" duration="9600000" />
+      <workItem from="1683307857870" duration="13127000" />
+      <workItem from="1683404581381" duration="1873000" />
+      <workItem from="1683456474431" duration="3778000" />
+      <workItem from="1683668837639" duration="11250000" />
+      <workItem from="1683711668358" duration="5880000" />
+      <workItem from="1683728817356" duration="664000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tetraminos/Tetramino.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

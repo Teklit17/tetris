@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tetris.dir/Constants.cpp.obj"
+  "CMakeFiles/tetris.dir/Constants.cpp.obj.d"
+  "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj"
+  "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Menu.cpp.obj"
+  "CMakeFiles/tetris.dir/Menu.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/L_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/L_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj.d"
+  "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj"
+  "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj.d"
+  "CMakeFiles/tetris.dir/main.cpp.obj"
+  "CMakeFiles/tetris.dir/main.cpp.obj.d"
+  "libtetris.dll.a"
+  "tetris.exe"
+  "tetris.exe.manifest"
+  "tetris.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/tetris.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
