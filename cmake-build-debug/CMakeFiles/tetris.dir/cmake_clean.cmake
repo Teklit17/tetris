@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tetris.dir/Constants.cpp.obj"
-  "CMakeFiles/tetris.dir/Constants.cpp.obj.d"
   "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj"
   "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj.d"
   "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj"
@@ -27,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj.d"
   "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj"
   "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj.d"
+  "CMakeFiles/tetris.dir/audio/audio.cpp.obj"
+  "CMakeFiles/tetris.dir/audio/audio.cpp.obj.d"
   "CMakeFiles/tetris.dir/main.cpp.obj"
   "CMakeFiles/tetris.dir/main.cpp.obj.d"
   "libtetris.dll.a"

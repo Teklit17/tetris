@@ -1,0 +1,5 @@
+C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Aman\ikt103g23v\project\tetris -B C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug
+-- Found SFML 2.5.1 in C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug

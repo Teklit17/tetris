@@ -7,6 +7,8 @@
 #include <SFML/Audio.hpp> // include the SFML Audio module
 #include <cmath>
 #include "GameLogics/gameloop.h"
+#include "audio/audio.h"
+
 
 #include "Tetraminos/event.h"
 
@@ -37,7 +39,7 @@ int main() {
 
 
     sf::Font font;
-    if (!font.loadFromFile("../SFML/bin/Font/Montserrat-Italic-VariableFont_wght.ttf")) {
+    if (!font.loadFromFile("Montserrat-Italic-VariableFont_wght.ttf")) {
         return EXIT_FAILURE;
     }
 
@@ -51,6 +53,7 @@ int main() {
     // Create a clock to measure the time elapsed since the last tetramino movement
     sf::Clock clock1;
     sf::Clock clock2;
+
 
 
     while (window.isOpen()) {

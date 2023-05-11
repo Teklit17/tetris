@@ -115,9 +115,10 @@ main(): the main function of the program, responsible for handling events, movin
  10% Pieces are random from all standard Tetris pieces
  10% Pieces can be rotated //it have to fix the block rotate
  10% Lines clear when filled
-
  10% Scoring system
  5% Music and sound effects (min. 3 sounds)
+
+
  10% Two player mode with win condition
  10% Play with gamepad
  5% UML diagram of your main classes (at least 3)

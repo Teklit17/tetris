@@ -1,2 +1,2 @@
 CMakeFiles/tetris.dir/Constants.cpp.obj: \
- C:\Users\wadia\ikt103g23v\tetris\project_tetris\tetris\tetris\Constants.cpp
+ C:\Users\Aman\ikt103g23v\project\tetris\Constants.cpp

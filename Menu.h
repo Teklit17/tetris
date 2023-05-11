@@ -16,10 +16,8 @@
 class Menu {
 public:
 
-
     void showMenu(sf::RenderWindow& window);
 
 };
-
 
 #endif //TETRIS_MENU_H

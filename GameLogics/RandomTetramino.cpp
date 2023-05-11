@@ -41,7 +41,5 @@ std::unique_ptr<Tetramino> RandomTetramino::getRandomTetramino(sf::Color color, 
             return std::make_unique<S_Tetramino>(sf::Color::Cyan, x, y, board);
         default:
             return std::make_unique<T_Tetramino>(sf::Color::Cyan, x, y, board);
-
-
     }
 }

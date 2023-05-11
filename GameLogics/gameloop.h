@@ -5,13 +5,14 @@
 #ifndef TETRIS_GAMELOOP_H
 #define TETRIS_GAMELOOP_H
 #include "../Tetraminos/Board.h"
-
+#include "../audio/audio.h"
 #include "RandomTetramino.h"
 #include "../Tetraminos/Tetramino.h"
 #include <array>
 #include <SFML/Audio.hpp> // include the SFML Audio module
 #include <cmath>
 #include "../Menu.h"
+
 
 class gameloop {
 public:

@@ -4,18 +4,18 @@
 
 #include "gameloop.h"
 
-
 void gameloop::moveTetraminoDown(std::unique_ptr<Tetramino>& currentTetramino, std::array<std::array<int, 10>, 20>& board, Board& board1, RandomTetramino& Random, float& speed, sf::Clock& clock) {
-
+    audio soundPlayer;
     const float INITIAL_SPEED = 0.5f;
 
     // Move the tetramino down automatically
     if (clock.getElapsedTime().asSeconds() >= 1.f) {
         currentTetramino->move(0, 1);
+        //soundPlayer.SoundMoveDown();
         clock.restart();
     }
-
-    // Move the tetramino downwards at a certain speed, and check if it has collided with any other tetrominos on the board.
+    // Move the tetramino downwards at a certain speed,
+    // and check if it has collided with any other tetrominos on the board.
     if (clock.getElapsedTime().asSeconds() >= speed) {
         currentTetramino->m_y++;
         if (currentTetramino->isColliding(board)) {
@@ -29,14 +29,17 @@ void gameloop::moveTetraminoDown(std::unique_ptr<Tetramino>& currentTetramino, s
                     board[board_row][board_col] = 1;
                 }
             }
+            soundPlayer.SoundMove();
             currentTetramino = Random.getRandomTetramino(sf::Color::Green, 5, 0, board1);
         }
+        //soundPlayer.SoundMoveDown();
         clock.restart();
     }
 }
-
-
+audio S;
 void gameloop::clearFilledRows(std::array<std::array<int, 10>, 20>& board1f, int& score, Board& board1, sf::RenderWindow& window, sf::Font& font) {
+    audio soundPlayer;
+    //soundPlayer.playSoundP();
 
     for (int i = 0; i < BOARD_HEIGHT; i++) {
         bool rowFilled = true;
@@ -46,7 +49,6 @@ void gameloop::clearFilledRows(std::array<std::array<int, 10>, 20>& board1f, int
                 break;
             }
         }
-
         if (rowFilled) {
             // Clear the row
             for (int j = 0; j < BOARD_WIDTH; j++) {
@@ -60,26 +62,25 @@ void gameloop::clearFilledRows(std::array<std::array<int, 10>, 20>& board1f, int
                 }
             }
             // Increase the score
+            soundPlayer.playSoundPoint();
             score += 10;
             board1.updatePlayer1ScoreText(score, window, font);
         }
     }
 }
-
-
 void gameloop::checkGameOver(sf::RenderWindow& window, Board& board1, int score, std::array<std::array<int, 10>, 20>& board1f, sf::Font& font, Menu& menu) {
     board1.drawBoard(window);
+    audio soundPlayer;
 
     if (board1.isGameOver(board1f)) {
         window.clear();
-
         // Draw the game over text
         board1.gameOvertext(window, font);
 
         board1.updatePlayer1ScoreText(score, window, font);
-
         // Display the window
         window.display();
+        soundPlayer.SoundGameOver();
         std::cout << "game over";
 
         sf::Clock clock;

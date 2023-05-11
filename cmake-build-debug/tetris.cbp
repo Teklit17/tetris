@@ -5,191 +5,196 @@
 		<Option title="tetris"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\tetris\;CMake Files\..\..\..\tetris\SFML\;CMake Files\..\..\..\tetris\SFML\lib\;CMake Files\..\..\..\tetris\SFML\lib\cmake\;CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML\;CMake Files\SFML\lib\;CMake Files\SFML\lib\cmake\;CMake Files\SFML\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tetris">
-				<Option output="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/tetris.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug"/>
+				<Option output="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/tetris.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
 					<Add directory="C:/SFML/include"/>
-					<Add directory="C:/Users/wadia/ikt103g23v/tetris/tetris/SFML/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Aman/ikt103g23v/project/tetris/SFML/include"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetris"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetris"/>
+					<CompileFile command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tetris/fast">
-				<Option output="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/tetris.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug"/>
+				<Option output="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/tetris.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
 					<Add directory="C:/SFML/include"/>
-					<Add directory="C:/Users/wadia/ikt103g23v/tetris/tetris/SFML/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Aman/ikt103g23v/project/tetris/SFML/include"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetris/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetris/fast"/>
+					<CompileFile command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Aman/ikt103g23v/project/tetris/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Constants.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/RandomTetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/GameLogics/RandomTetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/RandomTetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/GameLogics/RandomTetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/gameloop.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/GameLogics/gameloop.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/gameloop.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/GameLogics/gameloop.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Menu.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Menu.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Menu.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Menu.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Board.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Board.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/I_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/I_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/I_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/I_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/J_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/J_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/J_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/J_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/L_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/L_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/L_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/L_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/O_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/O_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/O_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/O_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/S_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/S_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/S_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/S_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/T_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/T_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/T_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/T_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Z_Tetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Z_Tetramino.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Z_Tetramino.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Z_Tetramino.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/event.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/event.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/event.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/event.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/audio/audio.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/main.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/audio/audio.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/CMakeLists.txt">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/main.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/../../../tetris/SFML/lib/cmake/SFML/SFMLConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/../../../tetris/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/../../../tetris/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/../../../tetris/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/../../../tetris/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/../../../tetris/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\tetris\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

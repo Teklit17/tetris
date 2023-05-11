@@ -8,21 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Constants.cpp" "CMakeFiles/tetris.dir/Constants.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Constants.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/GameLogics/RandomTetramino.cpp" "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/GameLogics/gameloop.cpp" "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj" "gcc" "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Menu.cpp" "CMakeFiles/tetris.dir/Menu.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Menu.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Board.cpp" "CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/I_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/J_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/L_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/L_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/L_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/O_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/S_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/T_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/Z_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/Tetraminos/event.cpp" "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj.d"
-  "C:/Users/wadia/ikt103g23v/tetris/project_tetris/tetris/tetris/main.cpp" "CMakeFiles/tetris.dir/main.cpp.obj" "gcc" "CMakeFiles/tetris.dir/main.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/RandomTetramino.cpp" "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/gameloop.cpp" "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj" "gcc" "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Menu.cpp" "CMakeFiles/tetris.dir/Menu.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Menu.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.cpp" "CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/I_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/J_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/L_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/L_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/L_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/O_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/S_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/T_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Z_Tetramino.cpp" "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/event.cpp" "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj" "gcc" "CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/audio/audio.cpp" "CMakeFiles/tetris.dir/audio/audio.cpp.obj" "gcc" "CMakeFiles/tetris.dir/audio/audio.cpp.obj.d"
+  "C:/Users/Aman/ikt103g23v/project/tetris/main.cpp" "CMakeFiles/tetris.dir/main.cpp.obj" "gcc" "CMakeFiles/tetris.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

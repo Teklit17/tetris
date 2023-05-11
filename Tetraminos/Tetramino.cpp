@@ -38,9 +38,7 @@ int Tetramino::get_block(int row, int col) const {
     return m_shape[idx];
 }
 
-
 void Tetramino::move(int xOffset, int yOffset) {
-
         // Update the position of the tetramino
         m_x += xOffset;
         m_y += yOffset;
@@ -50,7 +48,6 @@ void Tetramino::move(int xOffset, int yOffset) {
             block.move(xOffset * BLOCK_SIZE, yOffset * BLOCK_SIZE);
         }
     }
-
 
 int Tetramino::get_width() const {
     int width = 0;
@@ -68,7 +65,6 @@ int Tetramino::get_width() const {
     }
     return width;
 }
-
 
 void Tetramino::rotate(bool clockwise) {
     std::array<int, 16> new_shape = m_shape;
@@ -92,12 +88,6 @@ void Tetramino::rotate(bool clockwise) {
     m_shape = new_shape;
 }
 
-
-
-
-
-
-
 bool Tetramino::isColliding(const std::array<std::array<int, 10>, 20> &board) const {
     for (int i = 0; i < 16; i++) {
         int row = i / 4;
@@ -113,8 +103,6 @@ bool Tetramino::isColliding(const std::array<std::array<int, 10>, 20> &board) co
                 board_col < 0 || board_col >= Board::WIDTH) {
                 return true;
             }
-
-
         }
     }
     return false;
