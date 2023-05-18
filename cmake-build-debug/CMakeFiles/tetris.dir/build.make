@@ -218,20 +218,20 @@ CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.s"
 	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\T_Tetramino.cpp -o CMakeFiles\tetris.dir\Tetraminos\T_Tetramino.cpp.s
 
-CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj: ../Tetraminos/Board.cpp
-CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj -MF CMakeFiles\tetris.dir\Tetraminos\Board.cpp.obj.d -o CMakeFiles\tetris.dir\Tetraminos\Board.cpp.obj -c C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\Board.cpp
+CMakeFiles/tetris.dir/Board/Board.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/Board/Board.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/Board/Board.cpp.obj: ../Board/Board.cpp
+CMakeFiles/tetris.dir/Board/Board.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tetris.dir/Board/Board.cpp.obj"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/Board/Board.cpp.obj -MF CMakeFiles\tetris.dir\Board\Board.cpp.obj.d -o CMakeFiles\tetris.dir\Board\Board.cpp.obj -c C:\Users\Aman\ikt103g23v\project\tetris\Board\Board.cpp
 
-CMakeFiles/tetris.dir/Tetraminos/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/Tetraminos/Board.cpp.i"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\Board.cpp > CMakeFiles\tetris.dir\Tetraminos\Board.cpp.i
+CMakeFiles/tetris.dir/Board/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/Board/Board.cpp.i"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aman\ikt103g23v\project\tetris\Board\Board.cpp > CMakeFiles\tetris.dir\Board\Board.cpp.i
 
-CMakeFiles/tetris.dir/Tetraminos/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/Tetraminos/Board.cpp.s"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\Board.cpp -o CMakeFiles\tetris.dir\Tetraminos\Board.cpp.s
+CMakeFiles/tetris.dir/Board/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/Board/Board.cpp.s"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\Board\Board.cpp -o CMakeFiles\tetris.dir\Board\Board.cpp.s
 
 CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj: CMakeFiles/tetris.dir/flags.make
 CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
@@ -248,35 +248,35 @@ CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.s"
 	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\RandomTetramino.cpp -o CMakeFiles\tetris.dir\GameLogics\RandomTetramino.cpp.s
 
-CMakeFiles/tetris.dir/Menu.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/Menu.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/Menu.cpp.obj: ../Menu.cpp
-CMakeFiles/tetris.dir/Menu.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tetris.dir/Menu.cpp.obj"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/Menu.cpp.obj -MF CMakeFiles\tetris.dir\Menu.cpp.obj.d -o CMakeFiles\tetris.dir\Menu.cpp.obj -c C:\Users\Aman\ikt103g23v\project\tetris\Menu.cpp
+CMakeFiles/tetris.dir/Menu/Menu.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/Menu/Menu.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/Menu/Menu.cpp.obj: ../Menu/Menu.cpp
+CMakeFiles/tetris.dir/Menu/Menu.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tetris.dir/Menu/Menu.cpp.obj"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/Menu/Menu.cpp.obj -MF CMakeFiles\tetris.dir\Menu\Menu.cpp.obj.d -o CMakeFiles\tetris.dir\Menu\Menu.cpp.obj -c C:\Users\Aman\ikt103g23v\project\tetris\Menu\Menu.cpp
 
-CMakeFiles/tetris.dir/Menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/Menu.cpp.i"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aman\ikt103g23v\project\tetris\Menu.cpp > CMakeFiles\tetris.dir\Menu.cpp.i
+CMakeFiles/tetris.dir/Menu/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/Menu/Menu.cpp.i"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aman\ikt103g23v\project\tetris\Menu\Menu.cpp > CMakeFiles\tetris.dir\Menu\Menu.cpp.i
 
-CMakeFiles/tetris.dir/Menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/Menu.cpp.s"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\Menu.cpp -o CMakeFiles\tetris.dir\Menu.cpp.s
+CMakeFiles/tetris.dir/Menu/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/Menu/Menu.cpp.s"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\Menu\Menu.cpp -o CMakeFiles\tetris.dir\Menu\Menu.cpp.s
 
-CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj: ../Tetraminos/event.cpp
-CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj -MF CMakeFiles\tetris.dir\Tetraminos\event.cpp.obj.d -o CMakeFiles\tetris.dir\Tetraminos\event.cpp.obj -c C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\event.cpp
+CMakeFiles/tetris.dir/GameLogics/event.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/GameLogics/event.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/GameLogics/event.cpp.obj: ../GameLogics/event.cpp
+CMakeFiles/tetris.dir/GameLogics/event.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aman\ikt103g23v\project\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tetris.dir/GameLogics/event.cpp.obj"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/GameLogics/event.cpp.obj -MF CMakeFiles\tetris.dir\GameLogics\event.cpp.obj.d -o CMakeFiles\tetris.dir\GameLogics\event.cpp.obj -c C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\event.cpp
 
-CMakeFiles/tetris.dir/Tetraminos/event.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/Tetraminos/event.cpp.i"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\event.cpp > CMakeFiles\tetris.dir\Tetraminos\event.cpp.i
+CMakeFiles/tetris.dir/GameLogics/event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/GameLogics/event.cpp.i"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\event.cpp > CMakeFiles\tetris.dir\GameLogics\event.cpp.i
 
-CMakeFiles/tetris.dir/Tetraminos/event.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/Tetraminos/event.cpp.s"
-	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\event.cpp -o CMakeFiles\tetris.dir\Tetraminos\event.cpp.s
+CMakeFiles/tetris.dir/GameLogics/event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/GameLogics/event.cpp.s"
+	C:\Users\Aman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\event.cpp -o CMakeFiles\tetris.dir\GameLogics\event.cpp.s
 
 CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj: CMakeFiles/tetris.dir/flags.make
 CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
@@ -305,10 +305,10 @@ tetris_OBJECTS = \
 "CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj" \
 "CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj" \
 "CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj" \
-"CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj" \
+"CMakeFiles/tetris.dir/Board/Board.cpp.obj" \
 "CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj" \
-"CMakeFiles/tetris.dir/Menu.cpp.obj" \
-"CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj" \
+"CMakeFiles/tetris.dir/Menu/Menu.cpp.obj" \
+"CMakeFiles/tetris.dir/GameLogics/event.cpp.obj" \
 "CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj"
 
 # External object files for target tetris
@@ -324,10 +324,10 @@ tetris.exe: CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/Tetraminos/S_Tetramino.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/Tetraminos/T_Tetramino.cpp.obj
-tetris.exe: CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/Board/Board.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj
-tetris.exe: CMakeFiles/tetris.dir/Menu.cpp.obj
-tetris.exe: CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/Menu/Menu.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/GameLogics/event.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/build.make
 tetris.exe: ../SFML/lib/libsfml-system-s-d.a

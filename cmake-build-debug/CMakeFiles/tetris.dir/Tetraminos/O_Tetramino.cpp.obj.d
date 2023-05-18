@@ -252,4 +252,4 @@ CMakeFiles/tetris.dir/Tetraminos/O_Tetramino.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\Board.h
+ C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h

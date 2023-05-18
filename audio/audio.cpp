@@ -3,7 +3,6 @@
 //
 
 #include "audio.h"
-audio::audio() {}
 
 void audio::playSoundMenu() {
     isPlaying= true;
@@ -31,3 +30,5 @@ void audio::SoundMoveDown() {
     isPlaying= true;
     PlaySound(TEXT("audio/liongit branch.wav"), NULL, SND_ASYNC);
 }
+audio::audio()
+{}

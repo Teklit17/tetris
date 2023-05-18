@@ -1,13 +1,9 @@
 //
-// Created by wadia on 2/20/2023.
+// Created by wadia on 4/20/2023.
 //
 
 #include "Tetramino.h"
-#include "Board.h"
 #include <SFML/Graphics.hpp>
-#include <cmath>
-#include <chrono>
-
 
 Tetramino::Tetramino(const std::array<int, 16> &shape, const sf::Color &color, int x, int y, const Board &mBoard)
         : m_shape(shape), m_color(color), m_x(x), m_y(y), m_board(mBoard) {
@@ -15,12 +11,11 @@ Tetramino::Tetramino(const std::array<int, 16> &shape, const sf::Color &color, i
     m_block.setOutlineThickness(2.f);
     m_block.setOutlineColor(sf::Color::Black);
 }
-
-void Tetramino::draw(sf::RenderWindow& window)
+void Tetramino::draw(sf::RenderWindow& window, int x_offset)
 {
     for (int i = 0; i < m_shape.size(); ++i)
     {
-        int x = i % 4;
+        int x = i % 4 + x_offset;
         int y = i / 4;
         int color = m_shape[i];
 
@@ -32,23 +27,18 @@ void Tetramino::draw(sf::RenderWindow& window)
         }
     }
 }
-
 int Tetramino::get_block(int row, int col) const {
     int idx = row * 4 + col;
     return m_shape[idx];
 }
-
 void Tetramino::move(int xOffset, int yOffset) {
-        // Update the position of the tetramino
         m_x += xOffset;
         m_y += yOffset;
 
-        // Update the position of each block in the tetramino
         for (auto& block : m_blocks) {
             block.move(xOffset * BLOCK_SIZE, yOffset * BLOCK_SIZE);
         }
     }
-
 int Tetramino::get_width() const {
     int width = 0;
     for (int col = 0; col < 4; col++) {
@@ -65,8 +55,19 @@ int Tetramino::get_width() const {
     }
     return width;
 }
-
-void Tetramino::rotate(bool clockwise) {
+int Tetramino::get_height() const {
+    int height = 0;
+    for (int row = 0; row < 4; row++) {
+        for (int col = 0; col < 4; col++) {
+            int idx = row * 4 + col;
+            if (m_shape[idx] == 1 && row + 1 > height) {
+                height = row + 1;
+            }
+        }
+    }
+    return height;
+}
+void Tetramino::rotate(const std::array<std::array<int, 10>, 20>& board) {
     std::array<int, 16> new_shape = m_shape;
     for (int i = 0; i < 16; i++) {
         int row = i / 4;
@@ -76,18 +77,37 @@ void Tetramino::rotate(bool clockwise) {
         int new_idx = new_row * 4 + new_col;
         new_shape[new_idx] = m_shape[i];
     }
-
+    for (int i = 0; i < 16; i++) {
+        int row = i / 4;
+        int col = i % 4;
+        int board_row = m_y + row;
+        int board_col = m_x + col;
+        if (new_shape[i] == 1) {
+            if (board_row >= Board::HEIGHT || board[board_row][board_col] == 1) {
+                return;
+            }
+            if (board_row < 0 || false ||
+                board_col < 0 || board_col >= Board::WIDTH) {
+                return;
+            }
+        }
+    }
     int left = m_x;
     int right = m_x + get_width();
     if (right > Board::WIDTH) {
-        m_x = Board::WIDTH - get_width();
+        m_x = Board::WIDTH - get_width()-1;
     } else if (left < 0) {
         m_x = 0;
     }
-
+    int top = m_y;
+    int bottom = m_y + get_height();
+    if (bottom > Board::HEIGHT) {
+        m_y = Board::HEIGHT + get_height();
+    } else if (top < 0) {
+        m_y = 0;
+    }
     m_shape = new_shape;
 }
-
 bool Tetramino::isColliding(const std::array<std::array<int, 10>, 20> &board) const {
     for (int i = 0; i < 16; i++) {
         int row = i / 4;
@@ -98,14 +118,16 @@ bool Tetramino::isColliding(const std::array<std::array<int, 10>, 20> &board) co
             if (board_row >= Board::HEIGHT || board[board_row][board_col] == 1) {
                 return true;
             }
-            // Check if the tetramino is out of the game board bounds
-            if (board_row < 0 || board_row >= Board::HEIGHT ||
+            if (board_row < 0 || false ||
                 board_col < 0 || board_col >= Board::WIDTH) {
                 return true;
             }
         }
     }
     return false;
+}
+void Tetramino::rotate() {
+
 }
 
 

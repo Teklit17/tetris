@@ -88,10 +88,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h">
+			<Option target="tetris"/>
+		</Unit>
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/RandomTetramino.cpp">
 			<Option target="tetris"/>
 		</Unit>
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/RandomTetramino.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/event.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/event.h">
 			<Option target="tetris"/>
 		</Unit>
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/gameloop.cpp">
@@ -100,16 +112,10 @@
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/gameloop.h">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Menu.cpp">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Menu/Menu.cpp">
 			<Option target="tetris"/>
 		</Unit>
-		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Menu.h">
-			<Option target="tetris"/>
-		</Unit>
-		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.cpp">
-			<Option target="tetris"/>
-		</Unit>
-		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.h">
+		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Menu/Menu.h">
 			<Option target="tetris"/>
 		</Unit>
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/I_Tetramino.cpp">
@@ -158,12 +164,6 @@
 			<Option target="tetris"/>
 		</Unit>
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Z_Tetramino.h">
-			<Option target="tetris"/>
-		</Unit>
-		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/event.cpp">
-			<Option target="tetris"/>
-		</Unit>
-		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/event.h">
 			<Option target="tetris"/>
 		</Unit>
 		<Unit filename="C:/Users/Aman/ikt103g23v/project/tetris/audio/audio.cpp">

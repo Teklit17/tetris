@@ -21,58 +21,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044dbb0b-eaa0-47ec-ade0-e1ced774f917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/audio/Background.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/GameOver.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/audio.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/audio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/lion.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/menuA.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/move.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/point+.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameLogics/event.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameLogics/event.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Constants.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GameLogics/RandomTetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameLogics/RandomTetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameLogics/RandomTetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameLogics/RandomTetramino.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameLogics/gameloop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameLogics/gameloop.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameLogics/gameloop.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameLogics/gameloop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Montserrat-Italic-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/bin/Font/Montserrat-Italic-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/bin/Font/Montserrat-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/Config_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/Config_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/Event_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/Event_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/Joystick_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/Joystick_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/Keyboard_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/Keyboard_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/Vector2_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/Vector2_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/Vector3_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/Vector3_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/WindowHandle_8hpp_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/WindowHandle_8hpp_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1CircleShape.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1CircleShape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ConvexShape.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1ConvexShape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Cursor.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Cursor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Image.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Joystick-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Joystick-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Joystick.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Joystick.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Keyboard-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Keyboard-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Keyboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Keyboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Listener.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Listener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Music.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Rect.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Rect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RectangleShape.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RectangleShape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderWindow.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1RenderWindow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shape.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Shape.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sound.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundSource.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundSource.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundStream.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1SoundStream.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Sprite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Text.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Texture.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Texture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transform.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transformable.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Transformable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Utf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector2-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector2-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector2.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector3-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector3-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector3.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1Vector3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1View.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/classsf_1_1View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/functions_eval_x.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_eval_x.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/functions_x.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/functions_x.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/group__window.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/group__window.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1ContextSettings.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1ContextSettings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseButtonEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseButtonEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseMoveEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseMoveEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelScrollEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1MouseWheelScrollEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1SensorEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1SensorEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1TouchEvent.html" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/doc/html/structsf_1_1Event_1_1TouchEvent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFML/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/SFML/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Board.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/I_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/I_Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/J_Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/J_Tetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/J_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/J_Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/L_Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/L_Tetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/L_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/L_Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/O_Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/O_Tetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/O_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/O_Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/S_Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/S_Tetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/S_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/S_Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/T_Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/T_Tetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/T_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/T_Tetramino.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tetraminos/Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/Tetramino.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-486186c55aa48a9b9a23.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-10c86499193b5deb2380.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-32baef7430a00a7f4a37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-10T14-27-22-0724.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-tetris-Debug-cfd882ba82b4706ac4ff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-055ed8d61d73709311c9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Constants.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Constants.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Constants.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Constants.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/Z_Tetramino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/Z_Tetramino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/Z_Tetramino.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tetraminos/Z_Tetramino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/event.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetraminos/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/audio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/audio/audio.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e26c62d4d4d29fc5a25e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-11T15-49-00-0920.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-tetris-Debug-013da363e968bfb37b14.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Menu.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Menu.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Menu.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/I_Tetramino.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj" afterDir="false" />
@@ -90,25 +126,21 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/audio/audio.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/audio/audio.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/compiler_depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/linkLibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/linkLibs.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/main.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/objects1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tetris.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tetris.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tetris.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tetris.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tetris.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tetris.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,24 +166,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/Aman/ikt103g23v/project/tetris/audio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aman/ikt103g23v/project/tetris/audio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aman\ikt103g23v\project\tetris\audio" />
@@ -159,20 +192,17 @@
       <recent name="C:\Users\Aman\ikt103g23v\project\tetris" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Aman\ikt103g23v\project\tetris\audioo" />
-      <recent name="C:\Users\wadia\ikt103g23v\tetris\tetris" />
-      <recent name="C:\Users\wadia\ikt103g23v\tetris\tetris\Tetraminos" />
+      <recent name="C:\Users\Aman\ikt103g23v\project\tetris\GameLogics" />
+      <recent name="C:\Users\Aman\ikt103g23v\project\tetris\Board" />
+      <recent name="C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos" />
+      <recent name="C:\Users\Aman\ikt103g23v\project\tetris\SFML\bin\Font" />
+      <recent name="C:\Users\Aman\ikt103g23v\project\tetris\SFML" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.tetris">
     <configuration name="Unnamed" type="CLionNativeAppRunConfigurationType" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$USER_HOME$/tetris" PASS_PARENT_ENVS_2="true" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="tetris" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tetris" TARGET_NAME="tetris" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tetris" RUN_TARGET_NAME="tetris">
@@ -236,7 +266,27 @@
       <workItem from="1683730877039" duration="1452000" />
       <workItem from="1683732356328" duration="6651000" />
       <workItem from="1683740678160" duration="24563000" />
-      <workItem from="1683820127170" duration="5813000" />
+      <workItem from="1683820127170" duration="7354000" />
+      <workItem from="1683851528478" duration="8640000" />
+      <workItem from="1684003230671" duration="12000" />
+      <workItem from="1684003255749" duration="619000" />
+      <workItem from="1684038846817" duration="12760000" />
+      <workItem from="1684052232549" duration="453000" />
+      <workItem from="1684068588925" duration="793000" />
+      <workItem from="1684102598585" duration="8659000" />
+      <workItem from="1684151995363" duration="3392000" />
+      <workItem from="1684155474838" duration="2806000" />
+      <workItem from="1684158351117" duration="1714000" />
+      <workItem from="1684192979466" duration="3893000" />
+      <workItem from="1684197114100" duration="9000" />
+      <workItem from="1684197173697" duration="29000" />
+      <workItem from="1684197315824" duration="47000" />
+      <workItem from="1684197557844" duration="54000" />
+      <workItem from="1684197883022" duration="37000" />
+      <workItem from="1684197969541" duration="153000" />
+      <workItem from="1684199006509" duration="4113000" />
+      <workItem from="1684240034348" duration="60337000" />
+      <workItem from="1684410871914" duration="9833000" />
     </task>
     <servers />
   </component>
@@ -259,5 +309,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tetraminos/Tetramino.cpp</url>
+          <line>110</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

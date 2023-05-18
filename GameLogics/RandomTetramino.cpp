@@ -1,16 +1,10 @@
 //
-// Created by wadia on 2/22/2023.
+// Created by wadia on 4/22/2023.
 //
-
 #include "RandomTetramino.h"
-
-
-
 #include <SFML/Graphics.hpp>
 #include <random>
 #include <memory>
-
-#include "../Tetraminos/Tetramino.h"
 #include "../Tetraminos/I_Tetramino.h"
 #include "../Tetraminos/L_Tetramino.h"
 #include "../Tetraminos/Z_Tetramino.h"
@@ -18,8 +12,6 @@
 #include "../Tetraminos/O_Tetramino.h"
 #include "../Tetraminos/S_Tetramino.h"
 #include "../Tetraminos/T_Tetramino.h"
-
-
 
 std::unique_ptr<Tetramino> RandomTetramino::getRandomTetramino(sf::Color color, float x, float y, Board board) {
     static std::random_device rd;

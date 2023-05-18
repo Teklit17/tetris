@@ -1,6 +1,6 @@
 CMakeFiles/tetris.dir/Tetraminos/J_Tetramino.cpp.obj: \
  C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\J_Tetramino.cpp \
- C:\Users\Aman\ikt103g23v\project\tetris\Tetraminos\Board.h \
+ C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

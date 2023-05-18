@@ -252,7 +252,7 @@ CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.h \
+ C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/random \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/x86_64-w64-mingw32/include/math.h \

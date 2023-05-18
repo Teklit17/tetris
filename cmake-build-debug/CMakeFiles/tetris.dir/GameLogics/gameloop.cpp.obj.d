@@ -1,7 +1,7 @@
 CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj: \
  C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\gameloop.cpp \
  C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\gameloop.h \
- C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.h \
+ C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -481,7 +481,7 @@ CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj: \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/x86_64-w64-mingw32/include/imm.h \
  C:\Users\Aman\ikt103g23v\project\tetris\GameLogics\RandomTetramino.h \
  C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Tetramino.h \
- C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.h \
+ C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h \
  C:/SFML/include/SFML/Audio.hpp \
  C:/SFML/include/SFML/Audio/InputSoundFile.hpp \
  C:/SFML/include/SFML/Audio/Export.hpp \
@@ -518,8 +518,8 @@ CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.obj: \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/poly_hermite.tcc \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/poly_laguerre.tcc \
  C:/Users/Aman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/riemann_zeta.tcc \
- C:/Users/Aman/ikt103g23v/project/tetris/Menu.h \
+ C:/Users/Aman/ikt103g23v/project/tetris/Menu/Menu.h \
  C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Tetramino.h \
- C:/Users/Aman/ikt103g23v/project/tetris/Tetraminos/Board.h \
+ C:/Users/Aman/ikt103g23v/project/tetris/Board/Board.h \
  C:/Users/Aman/ikt103g23v/project/tetris/GameLogics/RandomTetramino.h \
- C:/Users/Aman/ikt103g23v/project/tetris/Menu.h
+ C:/Users/Aman/ikt103g23v/project/tetris/Menu/Menu.h

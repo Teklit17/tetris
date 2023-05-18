@@ -1,15 +1,20 @@
+//
+// Created by wadia on 5/10/2023.
+//
+
 #include "Menu.h"
-#include "audio/audio.h"
+#include "../audio/audio.h"
 
 void Menu::showMenu(sf::RenderWindow& window) {
     bool selecting = true;
     sf::Font font;
-    if (!font.loadFromFile("Montserrat-Italic-VariableFont_wght.ttf")) {
+    if (!font.loadFromFile("SFML/bin/Montserrat-Italic-VariableFont_wght.ttf")) {
         std::cout << "Error loading font" << std::endl;
         return;
     }
 audio soundPlayer;
     soundPlayer.playSoundMenu();
+
     sf::Text title("Menu", font, 48);
     title.setPosition(200, 200);
 
@@ -23,18 +28,15 @@ audio soundPlayer;
     multiplayer.setPosition(200, 400);
 
     sf::Text quit("Quit", font, 24);
-    quit.setPosition(200, 450);
-
+    quit.setPosition(200, 350);
 
     while (selecting) {
         window.clear();
 
         window.draw(start);
-        window.draw(singleplayer);
-        window.draw(multiplayer);
         window.draw(quit);
-        window.display();
 
+        window.display();
         sf::Event event;
 
         while (window.pollEvent(event)) {
@@ -44,22 +46,13 @@ audio soundPlayer;
             } else if (event.type == sf::Event::MouseButtonPressed) {
                 if (event.mouseButton.button == sf::Mouse::Left) {
                     if (start.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)) {
-                        // Start game
-                        selecting = false;
-                    } else if (singleplayer.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)) {
-                        // Start singleplayer game
-                        selecting = false;
-                    } else if (multiplayer.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)) {
-                        // Start multiplayer game
                         selecting = false;
                     } else if (quit.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)) {
                         window.close();
-                        soundPlayer.stopSound();
                         selecting = false;
                     }
                 }
             }
         }
     }PlaySound(NULL, NULL, SND_ASYNC);
-
 }

@@ -6,18 +6,17 @@
 #define TETRIS_MENU_H
 
 #include <SFML/Graphics.hpp>
-#include "Tetraminos/Tetramino.h"
-#include "Tetraminos/Board.h"
-#include "GameLogics/RandomTetramino.h"
+#include "../Tetraminos/Tetramino.h"
+#include "../Board/Board.h"
+#include "../GameLogics/RandomTetramino.h"
 #include <array>
 #include "Menu.h"
-#include <SFML/Audio.hpp> // include the SFML Audio module
+#include <SFML/Audio.hpp>
 
 class Menu {
 public:
 
     void showMenu(sf::RenderWindow& window);
-
 };
 
 #endif //TETRIS_MENU_H

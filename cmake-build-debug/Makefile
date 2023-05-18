@@ -128,6 +128,30 @@ tetris/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/build
 .PHONY : tetris/fast
 
+Board/Board.obj: Board/Board.cpp.obj
+.PHONY : Board/Board.obj
+
+# target to build an object file
+Board/Board.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Board/Board.cpp.obj
+.PHONY : Board/Board.cpp.obj
+
+Board/Board.i: Board/Board.cpp.i
+.PHONY : Board/Board.i
+
+# target to preprocess a source file
+Board/Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Board/Board.cpp.i
+.PHONY : Board/Board.cpp.i
+
+Board/Board.s: Board/Board.cpp.s
+.PHONY : Board/Board.s
+
+# target to generate assembly for a file
+Board/Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Board/Board.cpp.s
+.PHONY : Board/Board.cpp.s
+
 GameLogics/RandomTetramino.obj: GameLogics/RandomTetramino.cpp.obj
 .PHONY : GameLogics/RandomTetramino.obj
 
@@ -151,6 +175,30 @@ GameLogics/RandomTetramino.s: GameLogics/RandomTetramino.cpp.s
 GameLogics/RandomTetramino.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/GameLogics/RandomTetramino.cpp.s
 .PHONY : GameLogics/RandomTetramino.cpp.s
+
+GameLogics/event.obj: GameLogics/event.cpp.obj
+.PHONY : GameLogics/event.obj
+
+# target to build an object file
+GameLogics/event.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/GameLogics/event.cpp.obj
+.PHONY : GameLogics/event.cpp.obj
+
+GameLogics/event.i: GameLogics/event.cpp.i
+.PHONY : GameLogics/event.i
+
+# target to preprocess a source file
+GameLogics/event.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/GameLogics/event.cpp.i
+.PHONY : GameLogics/event.cpp.i
+
+GameLogics/event.s: GameLogics/event.cpp.s
+.PHONY : GameLogics/event.s
+
+# target to generate assembly for a file
+GameLogics/event.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/GameLogics/event.cpp.s
+.PHONY : GameLogics/event.cpp.s
 
 GameLogics/gameloop.obj: GameLogics/gameloop.cpp.obj
 .PHONY : GameLogics/gameloop.obj
@@ -176,53 +224,29 @@ GameLogics/gameloop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/GameLogics/gameloop.cpp.s
 .PHONY : GameLogics/gameloop.cpp.s
 
-Menu.obj: Menu.cpp.obj
-.PHONY : Menu.obj
+Menu/Menu.obj: Menu/Menu.cpp.obj
+.PHONY : Menu/Menu.obj
 
 # target to build an object file
-Menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Menu.cpp.obj
-.PHONY : Menu.cpp.obj
+Menu/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Menu/Menu.cpp.obj
+.PHONY : Menu/Menu.cpp.obj
 
-Menu.i: Menu.cpp.i
-.PHONY : Menu.i
-
-# target to preprocess a source file
-Menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Menu.cpp.i
-.PHONY : Menu.cpp.i
-
-Menu.s: Menu.cpp.s
-.PHONY : Menu.s
-
-# target to generate assembly for a file
-Menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Menu.cpp.s
-.PHONY : Menu.cpp.s
-
-Tetraminos/Board.obj: Tetraminos/Board.cpp.obj
-.PHONY : Tetraminos/Board.obj
-
-# target to build an object file
-Tetraminos/Board.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/Board.cpp.obj
-.PHONY : Tetraminos/Board.cpp.obj
-
-Tetraminos/Board.i: Tetraminos/Board.cpp.i
-.PHONY : Tetraminos/Board.i
+Menu/Menu.i: Menu/Menu.cpp.i
+.PHONY : Menu/Menu.i
 
 # target to preprocess a source file
-Tetraminos/Board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/Board.cpp.i
-.PHONY : Tetraminos/Board.cpp.i
+Menu/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Menu/Menu.cpp.i
+.PHONY : Menu/Menu.cpp.i
 
-Tetraminos/Board.s: Tetraminos/Board.cpp.s
-.PHONY : Tetraminos/Board.s
+Menu/Menu.s: Menu/Menu.cpp.s
+.PHONY : Menu/Menu.s
 
 # target to generate assembly for a file
-Tetraminos/Board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/Board.cpp.s
-.PHONY : Tetraminos/Board.cpp.s
+Menu/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Menu/Menu.cpp.s
+.PHONY : Menu/Menu.cpp.s
 
 Tetraminos/I_Tetramino.obj: Tetraminos/I_Tetramino.cpp.obj
 .PHONY : Tetraminos/I_Tetramino.obj
@@ -416,30 +440,6 @@ Tetraminos/Z_Tetramino.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/Z_Tetramino.cpp.s
 .PHONY : Tetraminos/Z_Tetramino.cpp.s
 
-Tetraminos/event.obj: Tetraminos/event.cpp.obj
-.PHONY : Tetraminos/event.obj
-
-# target to build an object file
-Tetraminos/event.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/event.cpp.obj
-.PHONY : Tetraminos/event.cpp.obj
-
-Tetraminos/event.i: Tetraminos/event.cpp.i
-.PHONY : Tetraminos/event.i
-
-# target to preprocess a source file
-Tetraminos/event.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/event.cpp.i
-.PHONY : Tetraminos/event.cpp.i
-
-Tetraminos/event.s: Tetraminos/event.cpp.s
-.PHONY : Tetraminos/event.s
-
-# target to generate assembly for a file
-Tetraminos/event.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/Tetraminos/event.cpp.s
-.PHONY : Tetraminos/event.cpp.s
-
 audio/audio.obj: audio/audio.cpp.obj
 .PHONY : audio/audio.obj
 
@@ -497,18 +497,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tetris
+	@echo ... Board/Board.obj
+	@echo ... Board/Board.i
+	@echo ... Board/Board.s
 	@echo ... GameLogics/RandomTetramino.obj
 	@echo ... GameLogics/RandomTetramino.i
 	@echo ... GameLogics/RandomTetramino.s
+	@echo ... GameLogics/event.obj
+	@echo ... GameLogics/event.i
+	@echo ... GameLogics/event.s
 	@echo ... GameLogics/gameloop.obj
 	@echo ... GameLogics/gameloop.i
 	@echo ... GameLogics/gameloop.s
-	@echo ... Menu.obj
-	@echo ... Menu.i
-	@echo ... Menu.s
-	@echo ... Tetraminos/Board.obj
-	@echo ... Tetraminos/Board.i
-	@echo ... Tetraminos/Board.s
+	@echo ... Menu/Menu.obj
+	@echo ... Menu/Menu.i
+	@echo ... Menu/Menu.s
 	@echo ... Tetraminos/I_Tetramino.obj
 	@echo ... Tetraminos/I_Tetramino.i
 	@echo ... Tetraminos/I_Tetramino.s
@@ -533,9 +536,6 @@ help:
 	@echo ... Tetraminos/Z_Tetramino.obj
 	@echo ... Tetraminos/Z_Tetramino.i
 	@echo ... Tetraminos/Z_Tetramino.s
-	@echo ... Tetraminos/event.obj
-	@echo ... Tetraminos/event.i
-	@echo ... Tetraminos/event.s
 	@echo ... audio/audio.obj
 	@echo ... audio/audio.i
 	@echo ... audio/audio.s
